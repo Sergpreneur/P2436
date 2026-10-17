@@ -1,0 +1,37 @@
+generating 2147483648 field powers into 256 exact buckets
+generation complete; exact radix sorting/checking
+verified 32/256 partitions; candidate pairs=0
+verified 64/256 partitions; candidate pairs=0
+verified 96/256 partitions; candidate pairs=2
+verified 128/256 partitions; candidate pairs=2
+verified 160/256 partitions; candidate pairs=3
+verified 192/256 partitions; candidate pairs=3
+verified 224/256 partitions; candidate pairs=3
+verified 256/256 partitions; candidate pairs=3
+SOLUTION a=452471585 b=1293170928
+SOLUTION a=603365770 b=1696288372
+SOLUTION a=301682885 b=848144186
+DONE B=2147483648 matches=3 seconds=355.454
+	Command being timed: "/mnt/data/P2436_GitHub/.build/exact_search 2147483648 /mnt/data/P2436_work/full/data"
+	User time (seconds): 253.86
+	System time (seconds): 96.88
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:55.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 133468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8391746
+	Voluntary context switches: 488
+	Involuntary context switches: 11931
+	Swaps: 0
+	File system inputs: 27153976
+	File system outputs: 33559360
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

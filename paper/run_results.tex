@@ -1,0 +1,28 @@
+The reproducible C++17 implementation completed an inclusive scan of
+\(B=2\,147\,483\,648\) positive exponents, successfully closing all
+256 of 256 partitions and finding exactly three duplicate keys. A
+second sweep recovered exactly the three exponent pairs of
+Theorem~\ref{thm:main}. The process exited with code~0. Summary
+statistics from its generated log are shown below.
+\begin{center}
+\small
+\begin{tabular}{@{}l r@{}}\toprule
+Quantity & Observed value\\\midrule
+Enumerated states (inclusive) & 2\,147\,483\,648\\
+Partition files processed & 256 of 256\\
+Total equal-key pairs & 3\\
+Final field state, decimal & 263\,596\,493\,844\,334\,377\\
+Smallest / largest partition sizes & 8\,379\,809 / 8\,397\,622\\
+Wall-clock time & 355.454 s\\
+Peak resident set size (process) & 133\,468 KiB (130.34 MiB)\\
+Temporary raw key volume & 16 GiB\\\bottomrule
+\end{tabular}
+\end{center}
+The machine-readable summary and process log are included as
+\texttt{results/full\_run\_summary.json} and
+\texttt{results/full\_search.log}. Their totals and all three
+witnesses pass the bundled independent Python metadata and remainder
+checks. The 16~GiB raw intermediate is not shipped with the archive;
+its exact regeneration is prescribed by the program. This run is a
+computational certificate whose assurance depends on correct execution
+of the published source, not a proof checked by the Lean kernel.

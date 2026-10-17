@@ -1,0 +1,14 @@
+name = "P2436"
+version = "1.0.0"
+defaultTargets = ["P2436", "P2436Poly"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "P2436"
+
+[[lean_lib]]
+name = "P2436Poly"

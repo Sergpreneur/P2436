@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: 'If you use this research, cite the accompanying preprint.'
+title: 'The Least Trinomial Multiple of a Primitive Degree-61 Binary Polynomial'
+authors:
+  - family-names: Nefedov
+    given-names: Sergey
+date-released: '2026-10-17'
+version: '1.0.0'
+type: software
+abstract: 'Exact exhaustive search and Lean 4 positive-witness certificate for TheoremDB P2436.'
